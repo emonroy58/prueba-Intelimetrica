@@ -9,7 +9,7 @@ Todos hemos tenido la oportunidad de usar e interactuar con mapas de Google, bus
 El alcance del desarrollo para este proyecto se ha efectuado de la siguiente forma:
 
 - Se obtuvo un mapa general de la ciudad de México mediante la libreria google-maps-react y agregando el componente de mapa a su función   render, asi como la API_KEY del la plataforma de Google [https://console.cloud.google.com/] (https://console.cloud.google.com/)
-
+[Git](https://git-scm.com/)
 - Se localizo cada uno de los restaurantes en mapa de Google maps, obteniendo del archivo .JSON su respectiva latitud y longitud, para lo cual se agrego un marcador con icono personalizado.
 
 - Al dar click sobre cada uno de los marcadores, se muestra un moda con: Numero de lugares cercanos a 80 km, el nombre de la persona que representa el lugar, direccion y ranking.
