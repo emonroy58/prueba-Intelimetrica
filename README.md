@@ -1,8 +1,9 @@
-# PRUEBA-INTELIMETRICA
+# PRUEBA-INTELIMÉTRICA
 
+### Introducción
 El proyecto se ha integrado a React con Google Maps.
 
-Todos hemos tenido la oportunidad de usar e interactuar con mapas de Google, buscando direcciones, viendo nuestra ubicación actual, solicitando taxis o estimando la distancia y el tiempo de un punto a otro, es por ello que se decicdio integrar la aplicación con Google Maps.
+Todos hemos tenido la oportunidad de usar e interactuar con mapas de Google, buscando direcciones, viendo nuestra ubicación actual, solicitando taxis o estimando la distancia y el tiempo de un punto a otro, es por ello que se decicdio integrar la aplicación el framework y bliblioteca antes mencionados.
 
 ### Proyecto
 El alcance del desarrollo para este proyecto se ha efectuado de la siguiente forma:
