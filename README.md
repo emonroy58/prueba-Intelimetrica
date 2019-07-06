@@ -1,5 +1,22 @@
 # PRUEBA-INTELIMETRICA
 
+El proyecto se ha integrado a React con Google Maps.
+
+Todos hemos tenido la oportunidad de usar e interactuar con mapas de Google, buscando direcciones, viendo nuestra ubicación actual, solicitando taxis o estimando la distancia y el tiempo de un punto a otro, es por ello que se decicdio integrar la aplicación con Google Maps.
+
+### Instalación
+Clonar el repositorio :
+git clone https://github.com/RayNjeri/GoogleMaps-React.git
+Ir a la raíz del directorio ejecutando:
+cd googlemap-react
+salida a la rama maestra ejecutando:
+git checkout master
+Instala todas las dependencias del proyecto ejecutando:
+yarn install
+Iniciar la aplicación
+Inicie el servidor ejecutando:
+yarn start
+
 In the project directory, you can run:
 
 ### `npm start`
