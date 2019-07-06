@@ -4,80 +4,39 @@ El proyecto se ha integrado a React con Google Maps.
 
 Todos hemos tenido la oportunidad de usar e interactuar con mapas de Google, buscando direcciones, viendo nuestra ubicación actual, solicitando taxis o estimando la distancia y el tiempo de un punto a otro, es por ello que se decicdio integrar la aplicación con Google Maps.
 
+### Proyecto
+El alcance del desarrollo para este proyecto se ha efectuado de la siguiente forma:
+
+-Se obtuvo un mapa general de la ciudad de México mediante la libreria google-maps-react y agregando el componente de mapa a su función   render, asi como la API_KEY del la plataforma de Google [https://console.cloud.google.com/] https://console.cloud.google.com/.
+-Se localizo cada uno de los restaurantes en mapa de Google maps, obteniendo del archivo .JSON su respectiva latitud y longitud, para lo cual se agrego un marcador con icono personalizado.
+-Al dar click sobre cada uno de los marcadores, se muestra un moda con: Numero de lugares cercanos a 80 km, el nombre de la persona que representa el lugar, direccion y ranking.
+-En la parte izquierda se coloco un buscador que arroja como datos: Numero de lugares cercanos a 80 km, el nombre de la persona que representa el lugar, direccion y ranking, y de manera inicial el listado que contiene el archivo JSON.
+
+A continuación se muestra el resultado de la aplicacion la cual se puede validar en: [https://proy-restaurant-010719.firebaseapp.com/] https://proy-restaurant-010719.firebaseapp.com/
+[https://i.ibb.co/3BN9KsV/2019-07-06-2.png] https://i.ibb.co/3BN9KsV/2019-07-06-2.png
+
 ### Instalación
-Clonar el repositorio :
-git clone https://github.com/RayNjeri/GoogleMaps-React.git
-Ir a la raíz del directorio ejecutando:
-cd googlemap-react
-salida a la rama maestra ejecutando:
+- Clonar el repositorio :
+```
+git clone https://github.com/emonroy58/prueba-Intelimetrica.git
+```
+
+- Ir a la raíz del directorio ejecutando:
+```
+cd prueba-Intelimetrica
+```
+-Ir a la rama master:
+```
 git checkout master
-Instala todas las dependencias del proyecto ejecutando:
-yarn install
-Iniciar la aplicación
-Inicie el servidor ejecutando:
-yarn start
+```
+- Install all project dependencies by running:
+```
+npm install o yarn install
+```
+-Iniciar la aplicación
+### `npm start` o `yarn start`
 
-In the project directory, you can run:
+La aplicación se ejecuatra en:
+[http://localhost:3000](http://localhost:3000).
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Autor: Elizabeth Monroy.
