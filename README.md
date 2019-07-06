@@ -18,7 +18,7 @@ El alcance del desarrollo para este proyecto se ha efectuado de la siguiente for
 
 A continuación se muestra el resultado de la aplicacion la cual se puede validar en: [https://proy-restaurant-010719.firebaseapp.com/] https://proy-restaurant-010719.firebaseapp.com/
 
-![Imagen-Aplicación](https://ibb.co/xJjtZsw)
+![Imagen-Aplicación](https://i.ibb.co/3BN9KsV/2019-07-06-2.png)
 
 ### Instalación
 - Clonar el repositorio :
