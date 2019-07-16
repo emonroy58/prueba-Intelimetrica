@@ -104,7 +104,7 @@ class MapRestaurant extends Component{
   
   render(){   
   
-    const API_KEY = "AIzaSyB7LBpgToPhN-yxej7rkgL22zKVdBjlyDE";
+    const API_KEY = "xxxxxxxxxxxxxxxxxxx";
     return(
       <div>
         <div id = 'sidebar'>
